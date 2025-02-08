@@ -20,7 +20,8 @@ To start the frontend, run:
 
 ```sh
 cd frontend
-npm run dev
+npm install
+npm run
 ```
 
 Then, open the following URL in your browser:
@@ -38,7 +39,8 @@ To start the backend, run:
 
 ```sh
 cd backend
-npm run start:dev
+npm install
+npm run start
 ```
 
 **The default backend port is 4000.**
@@ -75,7 +77,7 @@ Potential improvements for this project:
 
 2. **Complete CRUD Functionality**
    - Currently, superheroes cannot be updated or deleted without restarting the server.
-   - Adding **update** and **delete** methods would improve usability.
+   - Adding **update** and **delete** methods would extend app functions.
 
 ## Team Collaboration
 
